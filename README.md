@@ -9,8 +9,8 @@ pip install -r requirements.txt
 ## Evaluation
 ### Models
 - [fanjiang98/FSMODQA-EN](https://huggingface.co/fanjiang98/FSMODQA-EN): model pre-trained on MLWIKIQA with fine-tuning on English NQ data.
-- [fanjiang98/FSMODQA-100k](https://huggingface.co/fanjiang98/FSMODQA-100k): model fine-tuned on FSMLQA with 100k samples.
-- [fanjiang98/FSMODQA-600k](https://huggingface.co/fanjiang98/FSMODQA-600k): model fine-tuned on FSMLQA with 600k samples.
+- [fanjiang98/FSMODQA-100k](https://huggingface.co/fanjiang98/FSMODQA-100k): ```FSMODQA-EN``` fine-tuned on FSMLQA with 100k samples.
+- [fanjiang98/FSMODQA-600k](https://huggingface.co/fanjiang98/FSMODQA-600k): ```FSMODQA-EN``` fine-tuned on FSMLQA with 600k samples.
 ### XOR-TYDI-QA
 #### Download Dataset
 ```shell
