@@ -8,9 +8,9 @@ pip install -r requirements.txt
 
 ## Evaluation
 ### Models
-- [fanjiang98/FSMODQA-EN](https://huggingface.co/fanjiang98/FSMODQA-EN): model pre-trained on FSMLQA with fine-tuning on English NQ data.
-- [fanjiang98/FSMODQA-100k](https://huggingface.co/fanjiang98/FSMODQA-100k): model fine-tuned on FSMODQA with 100k samples.
-- [fanjiang98/FSMODQA-600k](https://huggingface.co/fanjiang98/FSMODQA-600k): model fine-tuned on FSMODQA with 600k samples.
+- [fanjiang98/FSMODQA-EN](https://huggingface.co/fanjiang98/FSMODQA-EN): model pre-trained on MLWIKIQA with fine-tuning on English NQ data.
+- [fanjiang98/FSMODQA-100k](https://huggingface.co/fanjiang98/FSMODQA-100k): model fine-tuned on FSMLQA with 100k samples.
+- [fanjiang98/FSMODQA-600k](https://huggingface.co/fanjiang98/FSMODQA-600k): model fine-tuned on FSMLQA with 600k samples.
 ### XOR-TYDI-QA
 #### Download Dataset
 ```shell
@@ -78,7 +78,7 @@ bash scripts/train_wikidata_reader.sh
 ```
 Using our released pre-trained model is recommended.
 
-2. Fine-tuning on FSMODQA synthetic training data (i.e., our released ```FSMODQA-100k``` model):
+2. Fine-tuning on FSMLQA synthetic training data (i.e., our released ```FSMODQA-100k``` model):
 ```shell
 bash scripts/XOR-Full/train_fs_iterative_reader.sh
 ```
