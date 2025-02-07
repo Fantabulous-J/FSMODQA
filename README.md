@@ -80,7 +80,7 @@ Using our released pre-trained model is recommended.
 
 2. Fine-tuning on FSMODQA synthetic training data (i.e., our released ```FSMODQA-100k``` model):
 ```shell
-bash scripts/XOR-Full/train_iterative_reader.sh
+bash scripts/XOR-Full/train_fs_iterative_reader.sh
 ```
 Switching to the dataset ```fs-qa.cl+il.llm-qa.600k.jsonl``` results in improved performance on XOR-Full for end-to-end ODQA.
 
